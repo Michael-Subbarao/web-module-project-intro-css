@@ -49,7 +49,133 @@ table {
 
 *{
     box-sizing:border-box;
-    border:1px solid grey;
+    /*border:1px solid grey;*/
     max-width:100%;
 
+}
+
+html{
+    font-size:62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-family: 'Roboto Mono', monospace;
+}
+section{
+    padding: 4% 0;
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav{
+    padding:2% 0;
+}
+
+nav a{
+    display:inline-block;
+    width: 10%;
+    height: 2%;
+    border-radius: 10px;
+    color:#fff;
+    padding: 1% 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+.box1{
+    background-color:#FF764E;
+    margin-left:16%;
+}
+
+.box2{
+    background-color:#5ED3EB;
+    margin-left:16%;
+}
+
+.box3{
+    background-color:#F9E7DC;
+    margin-left:16%;
+}
+
+
+h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size:6rem;
+}
+p{
+    text-align: center;
+}
+
+
+.txt,.img{
+    display:inline-block;
+}
+.img{
+    width:25%;
+}
+.txt{
+    text-align: center;
+    width: 55%;
+    margin-left: 10%;
+    position
+}
+img.round{
+    border-radius: 50%;
+}
+.txt h1{
+    margin-bottom: 5%;
+}
+.txt p{
+    margin-top:5%;
+    margin-left:25%;
+    margin-right:25%;
+}
+.bold{
+    font-weight: bold;
+}
+
+
+.mainText{
+    border: 10px;
+    background-color:#DDB9A3;
+    color:#fff;
+    padding: 1% 10%;
+    position: relative;
+    margin-left:5%;
+    margin-right: 5%;
+}
+.mainText p{
+    line-height: 1.5;
+}
+
+.fire img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 30%;
+}
+.fire p,.truck p{
+    margin-left:40%;
+    margin-right:40%;
+    line-height:1;
+    font-size:12px;
+}
+.truck img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  height: 300px;
+  width: auto;
+}
+footer{
+    background: #F9E7DC;
+}
+footer img{
+    position: block;
+    height:300px;
+    width: 100%;
 }
